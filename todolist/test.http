@@ -1,0 +1,12 @@
+### Get call
+GET http://localhost:4004/odata/v4/task/getToDos()
+
+### Create
+POST  http://localhost:4004/odata/v4/task/createToDo
+Content-Type: application/json
+
+{
+      "userId": 600,
+      "title": "safdsfdsaf",
+      "completed": false
+}
